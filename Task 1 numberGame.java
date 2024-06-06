@@ -6,7 +6,7 @@ public class numberGame {
         Scanner sc= new Scanner(System.in);
         Random r=new Random();
         int randomNum=r.nextInt(100)+1;
-        int chances=6;
+        int chances=10;
         int score=0;
         System.out.println("Hey Gamer!");
         System.out.println("You have about 10 chances to win the game");
