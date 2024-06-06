@@ -32,7 +32,7 @@ public class AtmInterface {
             switch(choice){
                 case 1: u.CheckBalance();
                         break;
-                case 2:  System.out.println("Enter the Withdrawl amount");
+                case 2:  System.out.println("Enter the Deposit amount");
                          double Depositamount=sc.nextDouble();
                          u.Deposit(Depositamount);
                          break;
